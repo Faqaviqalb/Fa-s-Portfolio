@@ -1,0 +1,119 @@
+.moreInfo {
+    font-family: "ShadowsIntoLight";
+    text-align: center;
+    margin-top: 80px;
+}
+.moreInfo h3 {
+    font-weight: 700;
+    color: #40a416;
+}
+.moreInfo p {
+    font-size: 1.5rem;
+}
+.specialHeader{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #dd9e7d;
+    position: relative;
+    font-family: BebasNeue;
+}
+.specialHeader::after{
+    position: absolute;
+    height: 3px;
+    width: 20%;
+    background-color: #c39b86;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -4px;
+}
+.popularCarts{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    /* width: 79vw; */
+    height: 350px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+.popularCarts .carts{
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+}
+.popularCarts .cart {
+    display: grid;
+    justify-items: center;
+    border-radius: 10px;
+    background: #f3f3f3;
+    box-shadow: 0 0 3px 0px #d1cece;
+    margin: 0 15px;
+    width: 200px;
+    position: absolute;
+    height: 100%;
+    transition: all 1s;
+}
+.popularCarts .cart img{
+    width: 80%;
+}
+.popularCarts .cart .price{
+    margin: 0 15px;
+}
+.popularCarts .cart .rating .stared{
+    color: #ffa200;
+}
+.popularCarts .cart .rating .notStared {
+    color: #ddd;
+}
+.popularCarts .plantTitle , .popularCarts .price{
+    font-family: BebasNeue;
+    font-size: 1.5rem;
+    color: #818181;
+}
+.popularCarts .price{
+    color: #628da5;
+}
+.popularCarts .cart button {
+    font-family: 'BebasNeue';
+    font-size: 1.3rem;
+    border: 0;
+    background: #458b77;
+    border-radius: 9px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.next , .prev{
+    position: absolute;
+    top: 70%;
+    border: 0;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: #838383;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+.next{
+    right: 0;
+}
+.prev {
+    left: 0;
+}
+.next.disabled , .prev.disabled{
+    cursor: none;
+    pointer-events: none;
+    background: #c5c5c5;
+}

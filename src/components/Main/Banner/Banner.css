@@ -1,0 +1,48 @@
+.full-banner {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: 50%;
+    margin: 3rem 0;
+}
+.banner-contain {
+    font-family: 'BebasNeue';
+    float: left;
+}
+.banner-contain p{
+    margin: 0;
+}
+.banner-contain p.fp{
+    font-size: 5rem;
+    color: #397c0b;
+}
+.banner-contain p.sp {
+    font-size: 6rem;
+}
+.banner-contain p.thp {
+    font-size: 4rem;
+    color: #e8b193;
+}
+.full-banner.parallax {
+    background-attachment: fixed;
+}
+
+.full-banner.parallax-banner1 {
+    background-image: url(../../../assets/images/monstera\ \(1\).jpg);
+}
+
+@media (max-width: 768px) {
+    .banner-contain p.fp {
+        font-size: 3rem;
+    }
+
+    .banner-contain p.sp {
+        font-size: 3rem;
+    }
+
+    .banner-contain p.thp {
+        font-size: 2rem;
+    }
+}

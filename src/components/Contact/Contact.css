@@ -1,0 +1,22 @@
+.container.contact {
+    margin-top: 100px;
+    font-family: 'DancingScript';
+}
+
+.container.contact h1 {
+    color: #3da312;
+    font-size: 3rem;
+}
+
+.container.contact h3 {
+    color: #b17a35;
+    font-size: 1.6rem;
+}
+
+.container.contact p {
+    color: #464646;
+    font-size: 1.6rem;
+}
+.container.contact li {
+    font-size: 1.2rem;
+}

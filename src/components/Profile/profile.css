@@ -1,0 +1,63 @@
+.formsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    font-family: ShadowsIntoLight;
+    margin-top: 5rem;
+    background: #e9e9e9;
+    padding: 2rem 0 12rem 0;
+}
+.formsContainer form{
+    padding: 2rem 2rem;
+    width: 320px;
+    box-shadow: 0 0 3px 2px #d3d3d3;
+    border-radius: 25px;
+    margin: 1rem 2rem;
+    background: white;
+}
+.formsContainer form .inputContainer {
+    margin: 20px 0;
+}
+.formsContainer form label {
+    display: block;
+    color: #202020;
+    font-size: 1.1rem;
+}
+.formsContainer form input {
+    border: 1px solid #b7b7b7;
+    padding: 6px;
+    border-radius: 8px;
+    width: 100%;
+}
+.formsContainer form button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.formsContainer .loginForm button{
+    background: #469f79; 
+    border: 2px solid #188155;
+}
+.formsContainer .loginForm button:hover,
+.formsContainer .loginForm button:focus{
+    border: 2px solid #469f79;
+    background: #188155;
+}
+.formsContainer .signUpForm button {
+    background: #bf9a73;
+    border: 2px solid #916e4a;
+}
+.formsContainer .signUpForm button:hover,
+.formsContainer .signUpForm button:focus {
+    border: 2px solid #bf9a73;
+    background: #916e4a;
+}
+.formsContainer .signUpForm h1 {
+    color: #916e4a;
+}
+.formsContainer .loginForm h1 {
+    color: #188155;
+}

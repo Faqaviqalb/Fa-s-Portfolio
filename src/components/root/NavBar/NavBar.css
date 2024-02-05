@@ -1,0 +1,123 @@
+.nav-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: ease-in 0.3s;
+    background: #ffffffd4;
+    z-index: 999;
+}
+.left-menu{
+    margin: 0 5px;
+    font-size: 1.5rem;
+    color: #444444;
+}
+.nav-container.scrolled{
+    box-shadow: 0 0px 2px 2px #68686885;
+    background: #ffffff;
+}
+.nav-container .nav-sec{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-sec img{
+    width: 80px;
+    vertical-align: bottom;
+    float: left;
+    height: 60px;
+}
+.navigations {
+    height: 60px;
+}
+.nav-sec a{
+    text-decoration: none;
+    display: inline-flex;
+    height: 100%;
+    position: relative;
+    align-items: center;
+}
+.nav-sec.left-sec a {
+    margin: 0 9px;
+    color: #3da312;
+    font-weight: 600;
+    font-size: 18px;   
+}
+.nav-sec.right-sec a {
+    color: #424141;
+}
+.nav-sec a:hover{
+    color: #1a8700;
+}
+.nav-sec .navigations a:hover::after,.nav-sec .navigations a:focus::after,.nav-sec .navigations a:active::after {
+    content: "";
+    background: #1a8700;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 96%;
+    left: 0;
+}
+.nav-icon{
+    display: flex;
+    margin: 0 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    color: #424141;
+    background: #d7d6d6;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-container .nav-sec.right-sec {
+    justify-content: flex-end;
+}
+.items-number {
+    position: absolute;
+    top: -9px;
+    right: -7px;
+    background: #f53939fc;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.search-container form{
+    position: relative;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+    background: #ebeaea;
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+.search-button {
+    border: 0;
+    padding: 0px 10px;
+    background: inherit;
+    color: #424141;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.search-container .search {
+    border: 0;
+    background: white;
+    height: 100%;
+    border-radius: 8px 0px 0 8px;
+}
+.search-container .search:focus-visible,
+.search-container .search:focus,
+.search-container .search:active{
+    outline: none;
+}

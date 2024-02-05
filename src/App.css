@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Amatic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Amatic'), url('./assets/fonts/AmaticSC-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ShadowsIntoLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ShadowsIntoLight'), url('./assets/fonts/ShadowsIntoLight-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DancingScript';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DancingScript'), url('./assets/fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: normal;
+  src: local('BebasNeue'), url('./assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+body{
+  scrollbar-width: thin;
+  scrollbar-color: #46ad19 #f1f1f1;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-track{
+  background: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb {
+  background: #7ad950;
+  border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background: #32850d;
+}
+.p-relative{
+  position: relative;
+}

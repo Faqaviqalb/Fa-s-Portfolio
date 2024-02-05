@@ -1,0 +1,64 @@
+.allCartsSearch {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.allCartsSearch .cart {
+    display: grid;
+    justify-items: center;
+    border-radius: 10px;
+    background: #f3f3f3;
+    box-shadow: 0px 5px 7px 0px #b7b7b7;
+    margin: 15px;
+    width: 200px;
+    height: 350px;
+}
+.allCartsSearch .cart img {
+    width: 80%;
+}
+
+.allCartsSearch .cart .price {
+    margin: 0 0px 0 15px;
+}
+
+.allCartsSearch .cart .rating .stared {
+    color: #ffa200;
+}
+
+.allCartsSearch .cart .rating .notStared {
+    color: #ddd;
+}
+
+.allCartsSearch .plantTitle,
+.allCartsSearch .price {
+    font-family: BebasNeue;
+    font-size: 1.5rem;
+    color: #818181;
+}
+
+.allCartsSearch .price {
+    color: #628da5;
+}
+
+.allCartsSearch .cart button {
+    font-family: 'BebasNeue';
+    font-size: 1.3rem;
+    border: 0;
+    background: #2ea337;
+    border-radius: 9px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.allCartsSearch .cart button:hover {
+    background-color: green;
+}

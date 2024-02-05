@@ -1,0 +1,80 @@
+.productsContainer{
+    margin-top: 5rem;
+}
+.allCarts{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;   
+    margin-bottom: 3rem;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.allCarts .carts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+}
+.allCarts .cart {
+    display: grid;
+    justify-items: center;
+    border-radius: 10px;
+    background: #f3f3f3;
+    box-shadow: 0px 5px 7px 0px #b7b7b7;
+    margin: 15px;
+    width: 200px;
+    height: 350px;
+}
+.allCarts .cart img{
+    width: 80%;
+}
+.allCarts .cart .price{
+    margin: 0 0px 0 15px;
+}
+.allCarts .cart .rating .stared{
+    color: #ffa200;
+}
+.allCarts .cart .rating .notStared {
+    color: #ddd;
+}
+.allCarts .plantTitle , .allCarts .price{
+    font-family: BebasNeue;
+    font-size: 1.5rem;
+    color: #818181;
+}
+.allCarts .price{
+    color: #628da5;
+}
+.allCarts .cart button {
+    font-family: 'BebasNeue';
+    font-size: 1.3rem;
+    border: 0;
+    background: #2ea337;
+    border-radius: 9px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.allCarts .cart button:hover{
+    background-color: green;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+}
+.btns button {
+    font-family: 'BebasNeue';
+    font-size: 22px;
+    border: 0;
+    background: #ffffff;
+    padding: 8px 0.5rem;
+    color: #52af95;
+    margin: 0 10px;
+}
+.btns button:hover{
+    color: #186e55;
+}
